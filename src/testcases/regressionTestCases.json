@@ -1,0 +1,21 @@
+{
+    "title": "Create Testcase by using automated script",
+    "sectionId": 1,
+    "steps": [
+      { "content": "Navigate to https://example.com", "expected": "Page loads successfully" },
+      { "content": "Verify the h1 element contains \"Example Domain\"", "expected": "H1 text is \"Example Domain\"" },
+      { "content": "Check for presence of informational text", "expected": "Text about domain usage is visible" },
+      { "content": "Verify the page has no broken links", "expected": "All links are functional" }
+    ],
+    "additionalFields": {
+      "template_id": 1,
+      "type_id": 3,
+      "priority_id": 2,
+      "estimate": "4m",
+      "custom_automation_status": 2,
+      "custom_automation_candidate": 1,
+      "custom_test_layer": 1,
+      "custom_test_category": 1,
+      "custom_product_version": [1, 2]
+    }
+  }
